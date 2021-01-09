@@ -6,6 +6,6 @@
   background-size: cover;
   border: 2px solid lightgrey;
   border-radius: 50%;
-  position: absolute;
-  bottom: -120px;
+  position: relative;
+  bottom: 35px;
 }
