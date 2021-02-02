@@ -1,6 +1,30 @@
 .full-page {
+  font-family: 'Nunito Sans', 'Gill Sans', sans-serif;
   margin: 0;
   padding: 0;
   width: 100vw;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url('https://images.unsplash.com/photo-1480498073050-4c6abeee90c1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1352&q=80');
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+.center-text {
+  color: lightblue;
+  text-align: center;
+  padding: 3%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 275px;
+  height: 75%;
+  border: 2px solid lightblue;
+  border-radius: 24px;
+  background-color: rgba(0, 0, 0, 0.7);
 }
