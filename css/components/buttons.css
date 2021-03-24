@@ -1,0 +1,54 @@
+button {
+  background-color: white;
+}
+
+.button-column {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.btn-square {
+    padding: 6px;
+    border-radius: 0;
+}
+
+.square-2 {
+
+}
+
+.square-3 {
+
+}
+
+.btn-bubble {
+    padding: 12px;
+    border-radius: 12px;
+}
+
+.bubble-2 {
+
+}
+
+.bubble-3 {
+    
+}
+
+.btn-simple {
+    padding: 0;
+    border: none;
+    background: none;
+    color: white;
+}
+
+.simple-2 {
+
+}
+
+.simple-3 {
+    
+}
+

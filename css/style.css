@@ -6,6 +6,7 @@
 @import url("components/avatar.css");
 @import url("components/full-page.css");
 @import url("components/containers.css");
+@import url("components/buttons.css");
 
 /* General for fonts and colors */
 body {
@@ -23,15 +24,17 @@ a {
   text-align: center;
 }
 
-.card-title {
+.title-bar {
   font-family: 'Nunito Sans', 'Gill Sans', sans-serif;
   width: 100vw;
+  height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   background-color: black;
   color: lightblue;
+  text-align: center;
 }
 
 
