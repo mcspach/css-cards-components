@@ -27,10 +27,12 @@
   margin: 20px 5px 5px 5px;
   font-size: .8rem;
   background-color: lightblue;
+  transition: .5s;
 }
 
 .card-product:hover {
-  border: 1px solid white;
+  box-shadow: 2px 3px 8px white; 
+  transform: scale(.98);
 }
 
 .card-product img {
@@ -41,7 +43,7 @@
 }
 
  .product-info{
- margin-left: 10px;
+ margin: 0 10px 0 10px;
  line-height: 13px;
 }
 
