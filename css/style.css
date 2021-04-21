@@ -2,11 +2,11 @@
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Raleway:300,400,500,700");
 
 /* Importing all components file */
-@import url("components/cards.css");
-@import url("components/avatar.css");
-@import url("components/full-page.css");
-@import url("components/containers.css");
-@import url("components/buttons.css");
+@import url("./components/cards.css");
+@import url("./components/avatar.css");
+@import url("./components/full-page.css");
+@import url("./components/containers.css");
+@import url("./components/buttons.css");
 
 /* General for fonts and colors */
 body {
