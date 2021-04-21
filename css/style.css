@@ -4,10 +4,14 @@
 /* Importing all components file */
 @import url("components/cards.css");
 @import url("components/avatar.css");
+@import url("components/full-page.css");
+@import url("components/containers.css");
+@import url("components/buttons.css");
 
 /* General for fonts and colors */
 body {
-  margin: 100px;
+  margin: 0;
+  padding: 0
   font-family: 'Open Sans', sans-serif;
 }
 h1, h2, h3 {
@@ -20,9 +24,17 @@ a {
   text-align: center;
 }
 
-.container {
+.title-bar {
+  font-family: 'Nunito Sans', 'Gill Sans', sans-serif;
+  width: 100vw;
+  height: 10vh;
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: lightblue;
+  text-align: center;
 }
+
+

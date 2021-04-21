@@ -1,0 +1,87 @@
+button {
+  background-color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.button-column {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.btn-square {
+    padding: 6px;
+    border-radius: 0;
+    background: none;
+    border: 2px solid red;
+    color: red;
+    transition: .2s;
+}
+.btn-square:hover {
+    padding: 4px 50px;
+    background: rgba(250, 126, 30, 0.5)
+}
+
+.inner-square {
+    background-image: url('https://images.unsplash.com/photo-1512641406448-6574e777bec6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80');
+    background-position: center;
+    width: 100%;
+    height: 80%;
+    margin: 0;
+    padding-top: 5%;
+}
+.square-2 {
+    color: orangered;
+    width: 150px;
+    height: 40px;
+    padding: 2px;
+    background: linear-gradient(to right, red, orange, red);
+    border: none;
+}
+.square-2:hover {
+    padding: 3px;
+    background: linear-gradient(to right, red, orange, red);
+}
+
+.square-3 {
+    font-weight: 900;
+    border: 5px solid red;
+}
+.square-3:hover {
+    font-size: larger;
+    padding: 10px;
+    border: 20px solid red;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.btn-bubble {
+    padding: 12px;
+    border-radius: 12px;
+}
+
+.bubble-2 {
+
+}
+
+.bubble-3 {
+    
+}
+
+.btn-simple {
+    padding: 0;
+    border: none;
+    background: none;
+    color: white;
+}
+
+.simple-2 {
+
+}
+
+.simple-3 {
+    
+}
+
