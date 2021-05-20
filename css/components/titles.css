@@ -1,0 +1,64 @@
+div.tagline {
+    z-index: 1;
+    overflow: hidden;
+    height: fit-content;
+    width: 100vw;
+    padding: 1%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: start;
+    align-items: start;
+    text-align: left;
+    letter-spacing: -2em;
+}
+div.tagline>h1 {
+    font-family: 'Roboto';
+    background-color: black;
+    color: white;
+    padding: 2%;
+    padding-right: 150%;
+    margin: 1% 0 1% 3%;
+    transform: translateX(-200px);
+}
+div.tagline>h2 {
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1rem;
+    padding: 2%;
+    margin: 10% auto;
+    border-bottom: 2px solid black;
+    text-align: center;
+    letter-spacing: 0em;
+    opacity: 0;
+}
+div.tagline>h3 {
+    font-family: 'Roboto';
+    font-size: 1.4rem;
+    padding: 2%;
+    padding-right: 150%;
+    margin: 1% 0 1% 3%;
+    background-color: black;
+    color: white;
+    transform: translateX(-200px);
+}
+
+/* title stretch animation */
+.stretching {
+    animation: stretchAnimation 3s ease .2s forwards;
+  }
+  
+  @keyframes stretchAnimation {
+    to { letter-spacing: .14em;
+         opacity: 1; }
+  }
+  
+  /* title stretch the second version */
+  .stretching_bg {
+    animation: stretchBG 2s ease forwards;
+  }
+  
+  @keyframes stretchBG {
+    to { 
+      letter-spacing: .3em;
+      transform: translateX(0);
+     }
+  }
