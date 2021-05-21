@@ -22,7 +22,6 @@ function checkScrollTitle() {
             visible = visibleX * visibleY / (w * h);
 
             if (visible > fraction) {
-                console.log('stretchy?');
                 title.classList.add("stretching");
             }
     }

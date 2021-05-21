@@ -1,6 +1,6 @@
 button {
-  background-color: white;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: .15rem;
 }
 
 .button-column {
@@ -18,7 +18,7 @@ button {
     background: none;
     border: 2px solid red;
     color: red;
-    transition: .2s;
+    transition: .3s;
 }
 .btn-square:hover {
     padding: 4px 50px;
@@ -43,7 +43,9 @@ button {
 }
 .square-2:hover {
     padding: 3px;
-    background: linear-gradient(to right, red, orange, red);
+    background: linear-gradient(to right, orange, red, orange);
+    transform: scale(1.2);
+    border-radius: 4px;
 }
 
 .square-3 {
@@ -54,19 +56,96 @@ button {
     font-size: larger;
     padding: 10px;
     border: 20px solid red;
-    background: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 254, 254, 0.7);
+
 }
 
 .btn-bubble {
-    padding: 12px;
-    border-radius: 12px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    color: white;
+    border: 2px solid white;
+    background-color: black;
+    transition: .3s;
+}
+
+.bubble-1 {
+
+}
+
+.bubble-1:hover {
+    background-image: radial-gradient(yellow, orange);
+    border: 4px solid rgb(69, 5, 114);
+    color: rgb(69, 5, 114);
+}
+
+.bubble-2 {
+    
+}
+
+.bubble-2:hover {
+    width: 110px;
+    height: 110px;
+    border: 2px solid black;
+    color: black;
+    background-color: unset;
+}
+
+.bubble-3 {
+    
+}
+
+.bubble-3:hover {
+    box-shadow: 0 0 5px 5px white;
+    animation: teeter 1s ease-in infinite;
+}
+
+
+@keyframes teeter {
+    0% { transform: rotate(0deg) scale(1) }
+    30% { transform: rotate(20deg) }
+    70% { transform: rotate(-20deg) scale(1.3) }
+}
+
+@keyframes borderCircle {
+    0% { 
+        border-top: 2px solid white;
+        padding: 2px; }
+    25% { 
+        border-right: 2px solid white;
+        }
+    50% { 
+        border-bottom: 2px solid white;
+        padding: 30px}
+    75% { 
+        border-left: 2px solid white;
+        }
 }
 
 .btn-simple {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     padding: 0;
     border: none;
     background: none;
     color: white;
+    transition: .3s;
 }
+
+.simple-1:hover {
+    animation: borderCircle 1s ease infinite; 
+}
+
+.simple-2:hover {
+    transform: scaleX(1.5);
+    text-shadow: 2px 2px 2px lightpink;
+}
+
+.simple-3:hover {
+    text-decoration: underline;
+}
+
+
+
 
 
